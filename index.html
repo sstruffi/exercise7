@@ -3,39 +3,114 @@
   <head>
     <meta charset="utf-8">
     <title>Exercise7</title>
-     <!--created by <Sara Truffi> on <Nov 4 2025> -->
+     <!--created by <Sara Truffi> on <Nov 4 2025>recipe-photo-Enhanced-SR.jpg -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
     <style>
-  
+      html{
+        font-size: 16px;
+      }
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+       #recipe-container {
+        width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+      h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 3em;
+        letter-spacing: 1px;
+        margin-top: 0;
+      }
+      h2 {
+        font-family: "Oswald", sans-serif;
+        font-size: 2em;
+        margin-top: 0;
+        margin-bottom: 0.5em;
+      }
+      h3 {
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+      }
+      ul {
+        list-style: none; 
+        padding-left: 0;
+      }
+      li {
+        margin-bottom: 0.5em; 
+      }
+      p {
+        line-height: 1.6em;
+        margin-bottom: 1.5em;
+      }
+      .left-column h2 {
+        margin-bottom: 1em;
+      }
+      .right-column h2 {
+        margin-bottom: 1em;
+      }
+      .column-left {
+        float: left;
+        width: 300px;
+        padding-right: 30px;
+    }
+      .column-right {
+        float: left;
+        width: 840px; 
+        padding-left: 30px; 
+    }
+      .recipe-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.5em; 
+    }
+      .step {
+        font-weight: 700;
+        color: green;
+    }
+      .tip {
+        font-weight: 700;
+    }   
     </style>
   </head>
-  
   <body style="background-color:#fbf7f5;">
-    <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
-    <h2>By: Martha Rose Shulman</h2>
-    <h2>Yield: 3 Servings</h2>
-    
-    <h2>Ingredients</h2>
-    <p>1 tablespoon canola oil<br>
-½ pound tofu, cut in small dice<br>
-1 large garlic clove, minced<br>
-1 teaspoon grated or minced fresh ginger<br>
-¼ teaspoon red chili flakes<br>
-Soy sauce to taste<br>
-16-ounce bag baby spinach, rinsed<br>
-2 tablespoons toasted sesame seeds<br>
-1 teaspoon sesame oil<br></p>
-    
-    <h2>Preparation</h2>
-    <h2>Step 1</h2>
-    <p>Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.</p>
-    
-    <h2>Step 2</h2>
-    <p>Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.</p>
-    
-    <h2>Tip</h2>
-    <p>Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
+    <div id="recipe-container">
+    <div class="column-left">
+      <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
+      <h3 class="author">By: Martha Rose Shulman</h3>
+      <h3 class="yield">Yield: 3 Servings</h3>
+      <h2 class="ingredients">Ingredients</h2>
+      <ul>
+        <li>1 tablespoon canola oil</li>
+        <li>½ pound tofu, cut in small dice</li>
+        <li>1 large garlic clove, minced</li>
+        <li>1 teaspoon grated or minced fresh ginger</li>
+        <li>¼ teaspoon red chili flakes</li>
+        <li>Soy sauce to taste</li>
+        <li>16-ounce bag baby spinach, rinsed</li>
+        <li>2 tablespoons toasted sesame seeds</li>
+        <li>1 teaspoon sesame oil</li>
+      </ul>
+    </div> 
+    <div class="column-right">
+      <img src="recipe-photo-Enhanced-SR.jpg"
+           alt="bowl of spinach and tofu stirfry"
+           class="recipe-image">      
+      <h2 class="preparation">Preparation</h2>
+       <p><strong class="step">Step 1</strong><br>
+        Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.</p>
+      <p><strong class="step">Step 2</strong><br>
+        Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread. </p> 
+      <p><strong class="tip">Tip</strong><br>
+        Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>  
+    </div>
+  </div> 
   </body>
 </html>
 <!--This receipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
